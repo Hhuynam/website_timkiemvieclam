@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="camnangnghenghiep.aspx" />
-    <Content Include="congcu.aspx" />
     <Content Include="dangky.aspx" />
     <Content Include="dangnhap.aspx" />
     <Content Include="dangtuyen&amp;timhoso.aspx" />
@@ -78,13 +77,6 @@
     </Compile>
     <Compile Include="camnangnghenghiep.aspx.designer.cs">
       <DependentUpon>camnangnghenghiep.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="congcu.aspx.cs">
-      <DependentUpon>congcu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="congcu.aspx.designer.cs">
-      <DependentUpon>congcu.aspx</DependentUpon>
     </Compile>
     <Compile Include="dangky.aspx.cs">
       <DependentUpon>dangky.aspx</DependentUpon>
@@ -135,7 +127,9 @@
       <DependentUpon>vieclam.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
